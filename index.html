@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model popup design</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="ope()" id="click">Click</button>
+    
+        <div class="model-wrapper" id="model-wrapper1">
+            <h1>This is reading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem quae similique dolor alias,
+                minima enim, eos illo, molestiae obcaecati deleniti asperiores iste ut laborum ad recusandae!
+                Asperiores, magni doloremque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea maxime fugiat
+                aut, officiis commodi fugit, corrupti dolore eaque, et voluptatibus sapiente quaerat deleniti aperiam
+                deserunt soluta quidem reprehenderit! Quod, provident!</p>
+            <button id="close" onclick="clos()">Close</button>
+        </div>
+    </div>
+    <script>
+        function ope() {
+            document.getElementById("model-wrapper1").style.display = "block"
+        }
+
+        function clos() {
+            document.getElementById("model-wrapper1").style.display = "none"
+        }
+    </script>
+</body>
+
+</html>

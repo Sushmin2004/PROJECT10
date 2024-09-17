@@ -1,0 +1,22 @@
+.model-wrapper{
+    background-color: white;
+    border: solid 2px;
+    height: 340px;
+    width: 340px;
+    box-shadow: 1px 1px 65px;
+    position: relative;
+    top: 125px;
+    left: 35rem;
+    padding: 15px;
+    display: none;
+}
+
+#close{
+    border: none;
+    background: rgb(231, 90, 8);
+    color: white;
+    border-radius: 34px;
+    position: absolute;
+    top: 26px;
+    left: 16rem;
+}
